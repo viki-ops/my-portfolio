@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hey, I am Vignesh</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- linking css file -->
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <canvas class="snow" id="snow"></canvas>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Hi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ido">I Do</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#dev">Dev</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ops">Ops  </a>
+                    </li>
+
+                </ul>
+                <a href="https://github.com/viki-ops">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                        class="bi bi-github" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                    </svg>
+                </a>
+
+
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <img src="assets/images/IMG.jpg" width="400" height="240" class="img-head" alt="">
+                    <div class="glow">
+                        <h1 class="text-glow">Hi, it's me Vignesh</h1>
+                        <p class="text-glow text-gradient">I am a Full Stack + DevOps professional </p>
+                        <div>
+                            <button class="gbtn btn-gradient-border btn-glow">
+                                Dev
+                            </button>
+                            <button class="gbtn btn-gradient-border btn-glow">
+                                Ops
+                            </button>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <a href="mailto:vignesh.p.work@gmail.com"><i class="fa email-button">&#xf0e0;</i></a>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ido section-->
+    <section class="bgimage" id="ido">
+        <div class="container">
+            <div class="glow">
+                <p class="text-center text-glow text-gradient">I do</p>
+                <button class="gbtn btn-gradient-border btn-glow">
+                    1. Plan
+                </button>
+                <button class="gbtn btn-gradient-border btn-glow">
+                    2. Design + Develop
+                </button>
+                <button class="gbtn btn-gradient-border btn-glow">
+                    3. Build
+                </button>
+                <button class="gbtn btn-gradient-border btn-glow">
+                    4. Test
+                </button>
+                <button class="gbtn btn-gradient-border btn-glow">
+                    5. Release
+                </button>
+                <button class="gbtn btn-gradient-border btn-glow">
+                    6. Deploy
+                </button>
+                <button class="gbtn btn-gradient-border btn-glow">
+                    7. Operate
+                </button>
+                <button class="gbtn btn-gradient-border btn-glow">
+                    8. Monitor
+                </button>
+
+
+
+
+                <div class="row">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" fill="currentColor"
+                        class="bi bi-infinity" viewBox="0 0 16 16">
+                        <path
+                            d="M5.68 5.792 7.345 7.75 5.681 9.708a2.75 2.75 0 1 1 0-3.916ZM8 6.978 6.416 5.113l-.014-.015a3.75 3.75 0 1 0 0 5.304l.014-.015L8 8.522l1.584 1.865.014.015a3.75 3.75 0 1 0 0-5.304l-.014.015L8 6.978Zm.656.772 1.663-1.958a2.75 2.75 0 1 1 0 3.916L8.656 7.75Z" />
+                    </svg>
+                </div>
+
+                <p class="bullet-text">
+                    “ I have strong experience Develop to Operate.
+                    Currently I'm a Team Lead in Devops managing 3 projects with 15+ environment”
+                </p>
+                <p class="bullet-text">Keep in Up-to-Date</p>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- dev section-->
+    <section class="" id="dev">
+        <div class="container">
+            <div class="glow">
+                <h1 class="text-center text-glow text-gradient">Dev</h1>
+                <div class="row">
+                    <div class="col-lg-4 mt-4">
+                        <div class="card servicesText btn-gradient-border btn-glow">
+                            <div class="card-body">
+                                <i class="fas servicesIcon fa-check-circle"></i>
+                                <h4 class="card-title mt-3">Architecture </h4>
+                                <p class="card-text mt-3">
+                                <ul>
+                                    <li>Client-Server</li>
+                                    <li>Microservices Pattern</li>
+                                    <li>peer to peer</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-4">
+                        <div class="card servicesText btn-gradient-border btn-glow">
+                            <div class="card-body">
+                                <i class="fas servicesIcon fa-check-circle"></i>
+                                <h4 class="card-title mt-3">Frontend </h4>
+                                <p class="card-text mt-3">
+                                <ul>
+                                    <li>Flutter</li>
+                                    <li>Express Js</li>
+                                    <li>Figma - Design</li>
+                                    <li>React</li>
+                                    <li>PHP</li>
+
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mt-4">
+                        <div class="card servicesText btn-gradient-border btn-glow">
+                            <div class="card-body">
+                                <i class="fas servicesIcon fa-check-circle"></i>
+                                <h4 class="card-title mt-3">Backend </h4>
+                                <p class="card-text mt-3">
+                                <ul>
+                                    <li>Node Js</li>
+                                    <li>NestJs</li>
+                                    <li>Python</li>
+                                    <li>Go</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="col-lg-4 mt-4">
+                            <div class="card servicesText btn-gradient-border btn-glow ">
+                                <div class="card-body">
+                                    <h4 class="card-title">DataBase</h4>
+                                    <p class="card-text">
+                                    <ul>
+                                        <li>MySQL</li>
+                                        <li>Redis</li>
+                                        <li>Neo4j</li>
+                                        <li>MongoDB</li>
+                                    </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mt-4">
+                            <div class="card servicesText btn-gradient-border btn-glow">
+                                <div class="card-body">
+                                    <i class="fas servicesIcon fa-check-circle"></i>
+                                    <h4 class="card-title mt-3">Testing </h4>
+                                    <p class="card-text mt-3">
+                                    <ul>
+                                        <li>K6 - Performance, Load Test</li>
+                                        <li>Kali Linux - Security</li>
+                                        <li>Postman</li>
+                                    </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-lg-4 mt-4">
+                            <div class="card servicesText btn-gradient-border btn-glow">
+                                <div class="card-body">
+                                    <i class="fas servicesIcon fa-check-circle"></i>
+                                    <h4 class="card-title mt-3">Mobile App </h4>
+                                    <p class="card-text mt-3">
+                                    <ul>
+                                        <li>Flutter - Android & iOS</li>
+                                    </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- portfolio section-->
+    <section id="ops">
+        <div class="container mt-3">
+            <h1 class="text-center text-glow text-gradient">Ops</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText btn-gradient-border btn-glow ">
+                        <div class="card-body">
+                            <h4 class="card-title">Container Orchestration</h4>
+                            <p class="card-text">
+                            <ul>
+                                <li> Docker compose & swarm </li>
+                                <li>Kubernetes</li>
+                                <li>Amazon Elastic Kubernetes Service</li>
+                                <li>Amazon Container Service</li>
+                                <li>Google Cloud Run</li>
+                                <li>Google Anthos</li>
+                                <li>Azure AKS </li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText btn-gradient-border btn-glow ">
+                        <div class="card-body">
+                            <h4 class="card-title">CI/CD</h4>
+                            <p class="card-text">
+                            <ul>
+                                <li>Jenkins</li>
+                                <li>Bitbucket Pipelines</li>
+                                <li>GitHub Actions</li>
+                                <li>Argo</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText btn-gradient-border btn-glow ">
+                        <div class="card-body">
+                            <h4 class="card-title">Monitoring</h4>
+                            <p class="card-text">
+                            <ul>
+                                <li>Prom Stack </li>
+                                <li>Loki Stack</li>
+                                <li>Netdata</li>
+                                <li>Signoz</li>
+                                <li>Zabbix</li>
+                                <li>Newrelic</li>
+                                <li>AWS Cloudwatch </li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText btn-gradient-border btn-glow ">
+                        <div class="card-body">
+                            <h4 class="card-title">Cloud</h4>
+                            <p class="card-text">
+                            <ul>
+                                <li>Amazon Web Service</li>
+                                <li>Google Cloud Platform</li>
+                                <li>Contabo</li>
+                                <li>SAKURA Internet</li>
+                                <li>Azure cloud platform</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText btn-gradient-border btn-glow ">
+                        <div class="card-body">
+                            <h4 class="card-title">Blockchain</h4>
+                            <p class="card-text">
+                            <ul>
+                                <li>HyperLedger Fabric</li>
+                                <li>Amazon Managed Blockchain</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText btn-gradient-border btn-glow ">
+                        <div class="card-body">
+                            <h4 class="card-title">Video conferencing services</h4>
+                            <p class="card-text">
+                            <ul>
+                                <li>Jitsi</li>
+                                <li>Livekit</li>
+                                <li>WebRTC</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText btn-gradient-border btn-glow ">
+                        <div class="card-body">
+                            <h4 class="card-title">Iac & Config</h4>
+                            <p class="card-text">
+                            <ul>
+                                <li>Terraform</li>
+                                <li>Ansible</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText btn-gradient-border btn-glow ">
+                        <div class="card-body">
+                            <h4 class="card-title">Security & Test</h4>
+                            <p class="card-text">
+                            <ul>
+                                <li>SonarQube</li>
+                                <li>Sentry</li>
+                                <li>K6</li>
+                                <li>Penetration Testing</li>
+                            </ul>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText btn-gradient-border btn-glow ">
+                        <div class="card-body">
+                            <h4 class="card-title">Adminstration</h4>
+                            <p class="card-text">
+                            <ul>
+                                <li>Linux administration</li>
+                                <li>Shell & python scripting</li>
+                                <li>JSONNET</li>
+                                <li>Dev, QA and Production</li>
+                                <li>Selfhosted and Clustering</li>
+                            </ul>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+    </section>
+
+    <!-- contact section-->
+
+    <!-- footer section-->
+
+    <script>
+
+        (function () {
+
+            var canvas, ctx;
+            var points = [];
+            var maxDist = 100;
+
+            function init() {
+                //Add on load scripts
+                canvas = document.getElementById("snow");
+                ctx = canvas.getContext("2d");
+                // resizeCanvas();
+                setTimeout(resizeCanvas, 20000);
+                pointFun();
+                setInterval(pointFun, 30);
+                window.addEventListener('resize', resizeCanvas, false);
+            }
+            //Particle constructor
+            function point() {
+                this.x = Math.random() * (canvas.width + maxDist) - (maxDist / 2);
+                this.y = Math.random() * (canvas.height + maxDist) - (maxDist / 2);
+                this.z = (Math.random() * 0.5) + 0.5;
+                this.vx = ((Math.random() * 2) - 0.5) * this.z;
+                this.vy = ((Math.random() * 1.5) + 1.5) * this.z;
+                this.fill = "rgba(255,255,255," + ((0.4 * Math.random()) + 0.5) + ")";
+                this.dia = ((Math.random() * 2.5) + 1.5) * this.z;
+                points.push(this);
+            }
+            //Point generator
+            function generatePoints(amount) {
+                var temp;
+                for (var i = 0; i < amount; i++) {
+                    temp = new point();
+                };
+                // console.log(points);
+            }
+            //Point drawer
+            function draw(obj) {
+                ctx.beginPath();
+                ctx.strokeStyle = "transparent";
+                ctx.fillStyle = obj.fill;
+                ctx.arc(obj.x, obj.y, obj.dia, 0, 2 * Math.PI);
+                ctx.closePath();
+                ctx.stroke();
+                ctx.fill();
+            }
+            //Updates point position values
+            function update(obj) {
+                obj.x += obj.vx;
+                obj.y += obj.vy;
+                if (obj.x > canvas.width + (maxDist / 2)) {
+                    obj.x = -(maxDist / 2);
+                }
+                else if (obj.xpos < -(maxDist / 2)) {
+                    obj.x = canvas.width + (maxDist / 2);
+                }
+                if (obj.y > canvas.height + (maxDist / 2)) {
+                    obj.y = -(maxDist / 2);
+                }
+                else if (obj.y < -(maxDist / 2)) {
+                    obj.y = canvas.height + (maxDist / 2);
+                }
+            }
+            //
+            function pointFun() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                for (var i = 0; i < points.length; i++) {
+                    draw(points[i]);
+                    update(points[i]);
+                };
+            }
+
+            function resizeCanvas() {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+                points = [];
+                generatePoints(window.innerWidth / 3);
+                pointFun();
+            }
+
+            //Execute when DOM has loaded
+            document.addEventListener('DOMContentLoaded', init, false);
+        })();
+    </script>
+
+    <!-- load javascript after loading all html content -->
+    <script src="assets/script/script.js"></script>
+
+</body>
+
+</html>
